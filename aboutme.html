@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>aboutme</title>
+    </head>
+    <body>
+        <p>I want to explore everything and always want to solve in differnt approach.</p>
+        <h2>Dark</h2>
+        <p>It is a mind bending time travel.<br>If you skip in between or take a break for longtime from watching you need to rewatch again because of that much complication.</p>
+        <i><img src="https://github.com/44-563-Web-Apps-F22/44563-webapps-assignment-3-SRS-P/blob/main/images.jpg"> Image path</i>
+        
+        <hr>
+        <h3>Cities to Visit</h3>
+        <p>The cities I recommend are in india and best tourist places to visit.</p>
+        <table>
+            <tr>
+                <h3><th>City</th></h3>
+                <h3><th>Location</th></h3>
+                <h3><th> Time to spend</th></h3>
+
+            </tr>
+            <tr>
+                <td> Delhi </td>
+                <td> India gate</td>
+                <td> 1.5hrs</td>
+            </tr>
+            <tr>
+                <td> Mumbai </td>
+                <td>bay area</td>
+                <td>2 hrs</td>
+            </tr>
+            <tr>
+                <td>shimla </td>
+                <td>mountain areas</td>
+                <td> 3 days</td>
+            </tr>
+            <tr>
+                <td> jodpur </td>
+                <td> pink city and fort</td>
+                <td> 4 days</td>
+            </tr>
+        </table>
+        <hr>
+        <h2> code Display</h2>
+        <blockquote>Cannot make a csv file from html tables, error in find function</blockquote>
+        <a href="https://stackoverflow.com/questions/31626852/how-to-add-konami-code-in-a-website-based-on-html">Link to stack overflow</a>
+        <pre>
+            var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
+
+            $(document).keydown(function(e) {
+            
+              kkeys.push( e.keyCode );
+            
+              if ( kkeys.toString().indexOf( konami ) >= 0 ) {
+            
+                $(document).unbind('keydown',arguments.callee);
+                
+                // do something awesome
+                $("body").addClass("konami");
+              
+              }
+            
+            });
+        </pre>
+
+
+    </body>
+
+</html>
